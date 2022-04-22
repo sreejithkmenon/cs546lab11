@@ -1,0 +1,57 @@
+<div class="row">
+
+    <div class="col-sm-12 col-md-4">
+        <form id="searchForm">
+
+            <div class="form-group">
+                <label for="search_term">Search</label>
+                <input type="text" class="form-control" id="search_term" name="search_term" placeholder="Search">
+            </div>
+
+            <div class="form-group">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+
+            <div class="form-group hidden" id="error-container">
+                <div class="alert alert-danger text-goes-here">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <ul id="showList" class="showList"></ul>
+
+    <div class="show" id="show">
+
+        <h1 id="name"></h1>
+
+        <img id="image" src="#" alt="TV show"/>
+        
+        <dl>
+
+            <dt id="dt_language">Language</dt>
+            <dd id="language"></dd>
+
+            <dt id="dt_genre">Genre</dt>
+            <dd>
+                <ul id="genre"></ul>
+            </dd>
+
+            <dt id="dt_rating">Average rating</dt>
+            <dd id="rating"></dd>
+
+            <dt id="dt_network">Network</dt>
+            <dd id="network"></dd>
+
+            <dt id="dt_summary">Summary</dt>
+            <dd id="summary"></dd>
+
+        </dl>
+
+    </div>
+
+    <a id="homeLink" href="/">Back to All Shows</a>
+
+
+</div>
